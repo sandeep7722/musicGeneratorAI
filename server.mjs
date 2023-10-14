@@ -2,7 +2,7 @@
 import express from "express";
 import Replicate from "replicate";
 import fetch from "node-fetch";
-import "cross-fetch/polyfill";
+import "cross-fetch/dist/node-polyfill.js";
 global.fetch = fetch;
 
 const app = express();
