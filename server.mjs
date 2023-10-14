@@ -1,4 +1,4 @@
-
+import "fetch-headers";
 import express from "express";
 import Replicate from "replicate";
 import fetch from "node-fetch";
