@@ -1,7 +1,8 @@
 import "fetch-headers";
 import express from "express";
 import Replicate from "replicate";
-import fetch from "node-fetch";
+import fetch from "node-fetch-ponyfill";
+// import fetch from "node-fetch";
 global.fetch = fetch;
 
 const app = express();
